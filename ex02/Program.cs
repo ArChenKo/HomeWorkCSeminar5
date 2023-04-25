@@ -14,7 +14,7 @@ int[] Arr(int num) // метод объявления массива и запо
     int[] array = new int[num];
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(100);
+        array[i] = new Random().Next(-100, 100);
     }
     return array;
 }
